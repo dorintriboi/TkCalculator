@@ -43,6 +43,6 @@ triunghi4_copie = panza.create_polygon(260,190,260+90,250,260,250,fill = "dodger
 
 
 
-panza.create_rectangle(50,50,75,450,fill = "brown")
+panza.create_rectangle(50,50,75,450,fill = "saddle brown", outline = "saddle brown")
 
 pagina.mainloop()
