@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
 pagina = Tk()
+pagina.resizable(width = False, height = False)
 panza = Canvas(pagina, width = "400", height = "300")
 panza.pack()
 butoane = [
@@ -86,7 +87,7 @@ def adauga(x):
                 scris.insert(0,yy)
                 semne2 = 0
             except:
-                messagebox.showerror("Eroare!","Matinca undeva imparte la zero sau ai pus egal aiurea")
+                messagebox.showerror("Eroare!","Matinca undeva imparte la zero sau ai pus egal aiurea sau ceva la paranteze")
         else:
             messagebox.showerror("Eroare!","Ceva nu ai facut bine!")
 
