@@ -1,6 +1,6 @@
 from tkinter import *
 pagina = Tk()
-panza = Canvas(pagina, width = 800, height = 600)
+panza = Canvas(pagina, width = 600, height = 500, bg = "white")
 panza.pack()
 
 panza.create_rectangle(75,50,375,250, fill = "white", outline = "white")
@@ -15,13 +15,10 @@ triunghi1_copie = panza.create_polygon(75,190,142.5,190,75,190+35+10,fill = "dod
 triunghi2_copie = panza.create_polygon(307.5,190,375,190,375,190+35+10,fill = "dodgerblue4", outline = "white")
 
 
-
 polygon1 =panza.create_polygon(75,50,75,62,142.5+10-2,110,142.5+5+20-2,110,fill = "brown3", outline = "white")
 polygon2 =panza.create_polygon(375,50,360,50,260+5,110,260+5+15,110,fill = "brown3", outline = "white")
 polygon3 = panza.create_polygon(75,250,92,250,182,190,167,190, fill = "brown3", outline = 'white')
 polygon3 = panza.create_polygon(375,250,375,240,307.5-5,190,307.5-5-15,190, fill = "brown3", outline = 'white')
-
-
 
 
 triunghi3 = panza.create_polygon(190,50,100,50,190,110,fill = "dodgerblue4", outline = "white")
@@ -31,17 +28,9 @@ triunghi3_copie = panza.create_polygon(190,250,100,250,190,190,fill = "dodgerblu
 triunghi4_copie = panza.create_polygon(260,190,260+90,250,260,250,fill = "dodgerblue4", outline = "white")
 
 
-
-
-
-
-
-
-
-
-
-
-
+panza.create_text(202,300,text="Drapel: Regatul Unit", fill = "blue", font = "Helvetica 15 bold")
+panza.create_text(206,325,text="Student: Triboi Dorin", fill = "black", font = "Helvetica 15 bold")
+panza.create_text(210,350,text="UTM, FCIM, Gr. FI-211", fill = "red", font = "Helvetica 15 bold")
 
 panza.create_rectangle(50,50,75,450,fill = "saddle brown", outline = "saddle brown")
 

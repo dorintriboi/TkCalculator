@@ -1,10 +1,12 @@
 from tkinter import *
 pagina = Tk()
-panza = Canvas(pagina,width = "800", height = "500")
+panza = Canvas(pagina,width = "600", height = "500")
 panza.pack()
 panza.create_rectangle(75,50, 380,250, fill = "SkyBlue3", outline = "Skyblue3")
 panza.create_rectangle(75,50+70,380, 75+110,fill = "white", outline = "White")
 panza.create_rectangle(75,50+80,380,75+100,fill = "black", outline = "SkyBlue3")
-
 panza.create_rectangle(50,50,75,450,fill = "saddle brown", outline = "saddle brown")
+panza.create_text(192,300,text="Drapel: Borswana", fill = "blue", font = "Helvetica 15 bold")
+panza.create_text(206,325,text="Student: Triboi Dorin", fill = "black", font = "Helvetica 15 bold")
+panza.create_text(210,350,text="UTM, FCIM, Gr. FI-211", fill = "red", font = "Helvetica 15 bold")
 pagina.mainloop()
